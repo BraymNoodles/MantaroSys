@@ -303,3 +303,6 @@ class Ventas:
         self._consultas(query,(nro_recibo, ))
         msg.showinfo("Mantaro Sys", "El recibo nro {} ha sido eliminado".format(nro_recibo))
         self._GetReciboVenta()            
+        
+    def _prueba(self):
+        msg.showerror("Mantaro Sys", "Esto es un error")
