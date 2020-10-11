@@ -304,5 +304,5 @@ class Ventas:
         msg.showinfo("Mantaro Sys", "El recibo nro {} ha sido eliminado".format(nro_recibo))
         self._GetReciboVenta()            
         
-    def _prueba(self):
+    def _prueba_error(self):
         msg.showerror("Mantaro Sys", "Esto es un error")

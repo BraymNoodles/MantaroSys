@@ -128,6 +128,9 @@ class PantallaPrincipal:
 
     def _salir(self):
         self.wind.destroy() 
+    
+    def _prueba_error(self):
+        msg.showerror("Mantaro Sys", "Esto es un error")
  
       
 
